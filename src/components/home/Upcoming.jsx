@@ -6,8 +6,8 @@ import Rectangle5 from '../../assets/images/Rectangle5.png'
 const Upcoming = () => {
   return (
     <div className='mb-[6rem]'>
-        <div className="upcoming bg-gradient-to-r from-blue-300  to-yellow-600 w-full min-h-[45vh] md:p-[4.5rem] p-[2.5rem] flex items-center justify-center flex-col">
-            <img src={ Rectangle5 } alt="" />
+        <div className="upcoming bg-gradient-to-r from-blue-300  to-yellow-600 w-full md:min-h-[45vh] h-[30vh] md:p-[4.5rem] p-[1.5rem] flex items-center justify-center flex-col">
+            <img src={ Rectangle5 } alt=""  className='w-full h-full'/>
         </div>
 
         <div className="explore-links mt-[6rem] before:w-full before:block before:h-[0.01rem] before:bg-gray-400 after:w-full after:h-[0.01rem] after:bg-gray-400 after:block">

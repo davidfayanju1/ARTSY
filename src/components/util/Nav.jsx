@@ -31,7 +31,7 @@ const Nav = () => {
       {
         showNav && 
 
-        <nav className="mobile-nav md:hidden block absolute w-full bg-brand left-0 top-0 min-h-[100vh] p-[1.5rem]">
+        <nav className="mobile-nav md:hidden block absolute w-full bg-brand left-0 top-0 min-h-[100vh] p-[1.5rem] pt-[2rem]">
           <div className="nav-logo flex items-center justify-between mb-[3.7rem]">
             <div className="nav-title">
               <Link to='/'><h1 className='text-[1.5rem] font-serif font-semibold'>ARTSY.</h1></Link>

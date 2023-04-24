@@ -33,7 +33,7 @@ const Creator = () => {
                 <span className="letter-header font-serif text-[2rem]">NEWSLETTER</span>
                 <p className='text-[1.2rem] my-[1.8rem]'>Subscribe to get daily updates on new drops & exciting deals </p>
                 <form className='flex md:flex-row flex-col items-start md:items-center gap-[1.2rem] justify-center w-[90%]'>
-                    <input type="text" placeholder='ENTER YOUR EMAIL' className='placeholder:font-serif font-serif placeholder:text-gray-700 border-solid border-[1px] border-black h-[3rem] placeholder:text-[.8rem] px-[1.7rem] outline-0 w-[90%] max-w-[30rem]'/>
+                    <input type="text" placeholder='ENTER YOUR EMAIL' className='placeholder:font-serif font-serif placeholder:text-gray-700 border-solid border-[1px] border-black h-[3rem] placeholder:text-[.8rem] px-[1.7rem] outline-0 w-[90%] max-w-[30rem] rounded-none'/>
                     <button type="submit" className='font-serif bg-black w-[10rem] h-[3rem] text-gray-300 text-[.8rem]'>SUBSCRIBE</button>
                 </form>
             </div>
