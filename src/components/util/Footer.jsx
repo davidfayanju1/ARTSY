@@ -40,7 +40,7 @@ const Footer = () => {
           <p className='text-[1.2rem] font-semibold text-gray-400'>Artsystudios © 2022. All Rights Reserved.</p>
         </div>
       </footer>
-      <footer className='p-[1.5rem] md:hidden block'>
+      <footer className=' mobile-footer p-[1.5rem] md:hidden block bg-brand'>
         <span className='text-[1.4rem]'>REACH US</span>
         <div className="contact-us mt-[2rem]">
           <div className="mail flex items-center gap-[1.2rem]">

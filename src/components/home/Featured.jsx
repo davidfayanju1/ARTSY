@@ -23,7 +23,7 @@ const Featured = () => {
             </section>
         </div>
         <div className='before:w-full before:hidden md:before:block before:h-[0.01rem] before:bg-gray-400 after:w-full after:h-[0.01rem] after:bg-gray-400 after:hidden md:after:block'>
-            <section className="article md:flex-row  flex-col-reverse flex items-center justify-between my-[4rem]">
+            <section className="article md:flex-row  flex-col-reverse flex items-center justify-between mt-[4rem]">
                 <div className="words_section md:w-[48%] w-full">
                     <h1 className='md:block hidden mb-[2rem] font-serif font-bold text-[2rem]'>The Boolean Egyptian</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor pur</p>
@@ -35,7 +35,7 @@ const Featured = () => {
             </section>
         </div>
         <div className='before:w-full before:hidden md:before:block before:h-[0.01rem] before:bg-gray-400 after:w-full after:h-[0.01rem] after:bg-gray-400 after:hidden md:after:block'>
-            <section className="article md:flex-row flex-col flex items-center justify-between my-[4rem]">
+            <section className="article md:flex-row flex-col flex items-center justify-between py-[4rem]">
                 <div className="image_section md:w-[48%] w-full mb-[2rem] md:mb-0">
                     <img src={ Rectangle1 } alt="rectangle" />
                 </div>
