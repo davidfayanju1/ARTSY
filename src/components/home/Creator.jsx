@@ -5,8 +5,8 @@ import Rectangle4 from '../../assets/images/Rectangle4.png'
 
 const Creator = () => {
   return (
-    <>
-        <div className="top-creator bg-gray-300 min-h-[60vh] md:p-[3.6rem] p-[.7rem] relative">
+    <div className='bg-brand'>
+        <div className="top-creator bg-gray-300 min-h-[60vh] md:p-[3.6rem] p-[.7rem] relative mb-[6rem]">
             <div className='flex items-top justify-between md:mb-[4rem]'>
                 <span className='font-bold md:text-[3rem] text-[2rem] font-clash md:w-[40%] w-[80%]'>TOP CREATORS OF THE WEEK</span>
                 <div className='hidden md:block'>
@@ -28,7 +28,7 @@ const Creator = () => {
             </div>
         </div>
 
-        <section className='newsletter md:px-[4rem] px-[1rem] mt-[8rem]'>
+        <section className='bg-brand newsletter md:px-[4rem] px-[1rem] md:mt-[10rem] mt-[8rem]'>
             <div className="flex flex-col md:items-center  items-start justify-center border-none md:border-solid border-[1px] border-black h-[55vh]">
                 <span className="letter-header font-serif text-[2rem]">NEWSLETTER</span>
                 <p className='text-[1.2rem] my-[1.8rem]'>Subscribe to get daily updates on new drops & exciting deals </p>
@@ -38,7 +38,7 @@ const Creator = () => {
                 </form>
             </div>
         </section>
-    </>
+    </div>
   )
 }
 
