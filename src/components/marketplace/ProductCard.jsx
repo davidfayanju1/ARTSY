@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
             <img src={ product.img } alt="" className='w-full object-cover'/>
         </div>
         <div className=" text md:flex-col flex-row flex md:items-start items-center justify-between">
-          <div className="card-title md:mb-[.8rem] text-[1.3rem]">
+          <div className="card-title md:mb-[.8rem] text-[1.2rem]">
               { product.name }
           </div>
           <div className="card-price md:font-bold md:text-[28px] text-[1.3rem]">
