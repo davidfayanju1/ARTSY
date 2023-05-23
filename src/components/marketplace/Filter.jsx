@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import vector from '../../assets/images/vector.png';
 
 const Filter = () => {
 
