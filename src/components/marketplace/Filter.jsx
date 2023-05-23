@@ -67,7 +67,6 @@ const Filter = () => {
                             </svg>
                         }
                     </div>
-
                     
                     {
                         toggleSort && 
