@@ -56,16 +56,16 @@ const Hero = () => {
         <div className="carousel md:h-[70vh] md:w-[100%] w-full mx-[auto] mt-[2rem]">          
           <Slider {...settings}>            
               <div>
-                  <img src= { Rectangle1 } alt="" className="md:h-full h-[20%] md:w-[95%] w-[20rem]"/>
+                  <img src= { Rectangle1 } alt="" className="md:h-[60vh] h-[42vh] object-cover md:w-[95%] w-[16.5rem]"/>
               </div>
               <div>
-                  <img src={ Rectangle2 } alt=""  className="md:h-full h-[20%] md:w-[95%] w-[20rem]"/>
+                  <img src={ Rectangle2 } alt=""  className="md:h-[60vh] h-[42vh] object-cover md:w-[95%] w-[16.5rem]"/>
               </div>
               <div>
-                  <img src= { Rectangle3 } alt="" className= "md:h-full h-[20%] md:w-[95%] w-[20rem]" />
+                  <img src= { Rectangle3 } alt="" className= "md:h-[60vh] h-[42vh] object-cover md:w-[95%] w-[16.5rem]" />
               </div>
               <div>
-                  <img src={ Rectangle4 } alt="" className= "md:h-full h-[20%] md:w-[95%] w-[20rem]"/>
+                  <img src={ Rectangle4 } alt="" className= "md:h-[60vh] h-[42vh] object-cover md:w-[95%] w-[16.5rem]"/>
               </div>
           </Slider>
         </div>
