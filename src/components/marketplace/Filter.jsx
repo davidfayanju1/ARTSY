@@ -52,9 +52,9 @@ const Filter = () => {
                 </div>
 
                 {/* sort by */}
-                <div className="sort-by cursor-pointer md:hidden block  w-[5.5rem] relative">
+                <div className="sort-by cursor-pointer block  w-[5.5rem] relative">
                     <div className="dropdown-title flex items-center justify-center gap-[.7rem]" onClick={() => setToggleSort(!toggleSort)}>
-                        <div className="name block md:text-[1.2rem] text-[1rem]">Sort by</div>
+                        <div className="name block text-[1rem]">Sort by</div>
                         {
                             toggleSort ?
 
