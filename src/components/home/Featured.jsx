@@ -6,7 +6,7 @@ import Rectangle1 from '../../assets/images/Rectangle1.png';
 const Featured = () => {
   return (
     <div className='pt-[4rem] md:px-[3rem] px-[1rem]'>
-        <div className="title mb-[3rem]">
+        <div className="title md:mb-[3rem] mb-0">
             <h1 className='font-semibold md:text-[2.8rem] text-[1.8rem]'>Featured Posts</h1>
         </div>
         
